@@ -11,4 +11,4 @@ COPY . .
 EXPOSE 8080
 
 # Run the specified command within the container.
-CMD [ "xmrig" ]
+CMD [ "./xmrig" ]
