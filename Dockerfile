@@ -1,5 +1,5 @@
 # Use the official image as a parent image
-FROM ubuntu:latest
+FROM mcr.microsoft.com/windows
 
 # Set the working directory
 WORKDIR /home
